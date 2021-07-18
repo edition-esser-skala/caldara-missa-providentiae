@@ -1,0 +1,17 @@
+composer: Caldara, Antonio and Zelenka, Jan Dismas
+title: Missa providentiae
+id: 
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-Dl
+    shelfmark: Mus.2170-D-7
+    type: manuscript copy
+    date: 1726–1733
+    rism: 212006716
+    url: http://digital.slub-dresden.de/id42660684
+github: caldara-missa-providentiae
+imslp: Missa_Providentiae_(Caldara,_Antonio)
+notes: Credo by Zelenka (ZWV 31)
+
