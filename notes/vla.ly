@@ -482,6 +482,63 @@ DomineDeusRexViola = {
   }
 }
 
+DomineFiliViola = {
+  \relative c' {
+    \clef alto
+    \key g \dorian \time 4/4 \tempoDomineFili
+      \set Score.currentBarNumber = #276
+    g'8\fE g, g b' a d, d d'
+    b a b a16 g d'8 d, r d'
+    es, es es c' d, d d b'
+    c, c c a' b, b b g'
+    fis a d d, b' a g c, %280
+    d4 d, g'8\pE g, g b'
+    a d, d d' b a b a16 g
+    d'8 d, r d' e, d e fis
+    g4 r8 g a, a a f'
+    g, g g e' f, f f d' %285
+    e d cis d a'4 a,
+    d8 d, d f' e a, a a'
+    f e d b' a a, r a'
+    h a h cis d d, r d'
+    e, e e c' d, d d b' %290
+    c, c c a' b, b b g'
+    a, b c d c b c c,
+    f' f, f a' g c, c c'
+    f, f, r f' e8. d16 c d e fis
+    g8 g, r g' f8. e16 d e f g %295
+    a8 g a f g f e c
+    f f f d' es, es es c'
+    d, d d b' c, c c a'
+    b, c d b es d es c
+    f f b es, f es f f, %300
+    b' b, b d' c f, f f'
+    d c d c16 b f'8 f, r a,
+    b4 r es r
+    es r f r8 es
+    d4 r g,8 a b c %305
+    d e fis d g b a g
+    d' d, r d' es, es es c'
+    d, d d b' c, c c a'
+    b, b b g' a, a a fis'
+    g,4 r8 g' c4. b8 %310
+    a g fis d g fis g c,
+    d4 d, g'8 g, g b'
+    a d, d d' b a b a16 g
+    d'8 d, r d e! d e fis
+    g g, r g' f es f g %315
+    es es es c' d, d d b'
+    c, c c a' b, b b g'
+    a, a a fis' g, a b c
+    d4 c d2
+    g,4 r8 g' a, a a a' %320
+    b, b b b' c, c c c'
+    d, d d d' es, es es c'
+    d, d d b' c,4 d
+    g,1\fermata \bar "||" %324 finis
+  }
+}
+
 DomineDeusAgnusViola = {
   \relative c' {
     \clef alto
@@ -648,6 +705,74 @@ QuiTollisViola = {
     c2. d4 %480
     h! g g2
     g1\fermata \bar "||" %482 finis
+  }
+}
+
+QuoniamViola = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #483
+    f4\fE r f8 g a f
+    g4 c f,8 e f d
+    g4 r g r %485
+    c, r g'8 e f g
+    c,4 c'8 b! a g a f
+    b4 d8 c h a h g
+    c c a f b r b, r
+    f' r f r g r g r %490
+    d r d r b^\critnote r h r
+    c r e r f b, c c,
+    f4 c' f r
+    f8\pE g a b c b a a,
+    b b' a a, g f g c %495
+    f,4 r f'8 g a f
+    g4 r8 g a4. g16 a
+    f4. d8 g4. f16 g
+    e8 d c a g2
+    R1*3 %502
+    c4\fE r c8 d e c
+    d4 g c, g'
+    c, r c8\pE d e f %505
+    g f e c f d' e, c'
+    d c d g, c4 c,
+    c8 d e c f4 r8 f
+    g4. f16 g e4. c8
+    f4. e16 f d8 e f g %510
+    a4 a, a8 h? cis a
+    h r cis r d4 r
+    R1*3 %515
+    d4\fE r d8 e f d
+    g4 g, c g'
+    c, r c8\pE d e c
+    g' f e4 f8 f, e e'
+    d c d g, c4 r8 c' %520
+    a g a f d c d e
+    f g a f c' b a a,
+    b b' a a, g f g c
+    f4 r f8 g a f
+    g f g a b4 b, %525
+    r8 b' c4. b16 c a4~
+    a8 f b4. a16 b g4
+    c,4. c'8 a\fE g a f
+    b4 b, f' f,
+    d' e f2 %530
+    c4. b8 a4 b
+    c2 f
+    c f,
+    r d'4 c8 b
+    c4 f, c'2 %535
+    f4 r f8 g a f
+    g4 c f,8 e f d
+    g4 r g r
+    c, r g'8 e f g
+    c,4 c'8 b a g a f %540
+    b4 d8 c h a h g
+    c c a f b r b, r
+    f' r f r g r g r
+    d r d r b r h r
+    c r e r f b, c c, %545
+    f4 r r2\fermata \bar "||" %546 finis
   }
 }
 

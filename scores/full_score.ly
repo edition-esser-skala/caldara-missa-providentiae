@@ -736,7 +736,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            \set Staff.instrumentName = \markup \center-column { "vla" "org" "b" }
             % \transpose c c,
             \QuoniamOrgano
           }
@@ -1298,7 +1298,7 @@
             \OsannaViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #11 #11 } <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \OsannaSopranoNotes }

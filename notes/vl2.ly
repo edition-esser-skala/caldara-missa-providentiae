@@ -363,16 +363,6 @@ AdoramusViolinoII = {
   }
 }
 
-GratiasViolinoII = {
-  \relative c' {
-    \clef treble
-    \key a \minor \time 3/2 \tempoGratias
-      \set Score.currentBarNumber = #171
-    \override MultiMeasureRest.minimum-length = #40
-      R1.*72 \bar "||" %242 finis
-  }
-}
-
 DomineDeusRexViolinoII = {
   \relative c' {
     \clef treble
