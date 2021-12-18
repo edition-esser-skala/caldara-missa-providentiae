@@ -1,7 +1,17 @@
-Deckblatt/*.pdf
-Fertige Noten/*
-Kritischer Bericht/*.pdf
-*.kilepr
-*.zip
-*.pdf
-*.mid
+final/*
+manuscript/*
+tmp/*
+front_matter/critical_report.pdf
+main.pdf
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.macros
+*.midi
+*.out
+*.ps
+*.ref
+*.toc
